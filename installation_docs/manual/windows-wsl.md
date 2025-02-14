@@ -53,7 +53,7 @@ cd CircuitVerse
       sudo systemctl enable redis-server
       # Start Redis service
       sudo systemctl start redis-server
-      ```
+     ```
 - [ImageMagick](https://imagemagick.org/) - Image manipulation library
      ```bash
      sudo apt install imagemagick

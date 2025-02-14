@@ -69,8 +69,8 @@ cd CircuitVerse
 - [Yarn](https://yarnpkg.com/getting-started/install)
      ```bash
      curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/yarn-archive-keyring.gpg
- echo "deb [signed-by=/usr/share/keyrings/yarn-archive-keyring.gpg] https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
- sudo apt update && sudo apt install -y yarn
+     echo "deb [signed-by=/usr/share/keyrings/yarn-archive-keyring.gpg] https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt update && sudo apt install -y yarn
       ```
 - [CMAKE](https://cmake.org/install/)
      ```bash
